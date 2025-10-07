@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "privateEndpointName": { "value": "pep-weapp-document-test-intelligence-app-01" },
+    "location": { "value": "eastus2" },
+
+    "subnetId": {
+      "value": "/subscriptions/<SUBSCRIPTION_ID_VNET>/resourceGroups/<RG_VNET>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>"
+    },
+
+    "targetResourceId": {
+      "value": "/subscriptions/<SUBSCRIPTION_ID_APP>/resourceGroups/<RG_APP>/providers/Microsoft.Web/sites/document-test-intelligence-app"
+    },
+
+    "groupIds": { "value": ["sites"] },
+
+    "connectionName": { "value": "pec-weapp-document-test-intelligence-app-01" },
+
+    "dnsZoneGroupName": { "value": "default" },
+
+    "dnsZoneId": {
+      "value": "/subscriptions/<SUBSCRIPTION_ID_DNS>/resourceGroups/<RG_DNS>/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net"
+    },
+
+    "enableDnsLink": { "value": true },
+    "manualApproval": { "value": false },
+
+    "tags": {
+      "value": {
+        "ambiente": "desarrollo",
+        "criticidad": "baja",
+        "descripcion": "Private Endpoint for App Service (document-test-intelligence-app)",
+        "nombre-proyecto": "document-test-intelligence-app",
+        "proceso": "transversales",
+        "prog-on-off": "si",
+        "negociante": "lego"
+      }
+    }
+  }
+}
