@@ -4,9 +4,9 @@ set -euo pipefail
 # ===== EDIT THESE =====
 RG="rg1"   # use the exact RG with hyphens
 SUBSCRIPTION_NAME_OR_ID="subcritption1"  # or "" to skip
-
+#Modify according to your path location
 BICEP_FILE="/mnt/c/Users/SuarezTo/OneDrive - Documents/GitHub/unisys_infra_repo/iac/modules/private-endpoint-generic.bicep"
-PARAMS_FILE="/mnt/c/Users/SuarezTo/OneDrive - Documents/GitHub/unisys_infra_repo/iac/params/private-endpoint-params.json"
+PARAMS_FILE="/mnt/c/Users/SuarezTo/OneDrive - Documents/GitHub/unisys_infra_repo/iac/params/generic-pe-params.json"
 
 # ===== Helpers =====
 need() { command -v "$1" >/dev/null 2>&1 || { echo "ERROR: missing $1"; exit 1; }; }
