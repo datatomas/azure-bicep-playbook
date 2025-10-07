@@ -1,1 +1,29 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": { "value": "di-docint-demo-01" },
+    "location": { "value": "<LOCATION>" },
+    "skuName": { "value": "S0" },
+    "customSubdomainName": { "value": "di-docint-demo-01" },
+    "tags": {
+      "value": {
+        "ambiente": "<AMBIENTE>",
+        "criticidad": "<CRITICIDAD>",
+        "descripcion": "masked: document intelligence service",
+        "lider-tecnico": "<LIDER_TECNICO>",
+        "nombre-proyecto": "document-intelligence-masked",
+        "proceso": "<PROCESO>",
+        "prog-on-off": "<PROG_ON_OFF>",
+        "admin-unisys": "<ADMIN_UNISYS>",
+        "arquitecto": "<ARQUITECTO>",
+        "coordinacion": "<COORDINACION>",
+        "creado-por": "<CREADO_POR>",
+        "fecha-vencimiento": "<FECHA_VENCIMIENTO>",
+        "momentum": "<MOMENTUM>",
+        "proveedor": "lego"
+      }
+    }
+  }
+}
 
