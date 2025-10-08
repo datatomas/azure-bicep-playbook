@@ -1,8 +1,8 @@
 # azure-bicep-playbook
 
 Visit the Medium Article:
-**https://help.medium.com/hc/en-us/categories/200058025-Writing
-**
+***[https://help.medium.com/hc/en-us/categories/200058025-Writing](https://medium.com/@datatomas/deploy-ai-tools-the-smart-way-reusable-private-endpoint-template-for-azure-ai-and-document-66af6cefaab2)
+***
 
 Azure Bicep Playbook — Production-grade IaC for “everything Azure”
 
