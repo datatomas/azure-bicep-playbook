@@ -12,8 +12,8 @@ set -euo pipefail
 # [[ "$PROFILE" != "<your-profile>" ]] || { echo "Set PROFILE"; exit 1; }
 # [[ "$ENDPOINT" != "<endpoint-name-or-host>" ]] || { echo "Set ENDPOINT"; exit 1; }
 
-SUB=${SUB:-44f61a5f-d14b-4b00-9f5e-6933c45cb30d}
-PROFILE=${PROFILE:-afdp-transversal-hub}
+SUB=${SUB:-<yoursub>}
+PROFILE=${PROFILE:-<yourprofile>}
 ENDPOINT='cargagpe-prb'
 RG=GR_FrontDoor_WAF
 
